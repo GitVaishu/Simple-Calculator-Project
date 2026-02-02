@@ -19,3 +19,5 @@ public class Calculator {
         System.out.println(result);
     }
 }
+        // Example operation: Addition
+        result = num1 + num2;                                           
