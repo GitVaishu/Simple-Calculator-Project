@@ -2,6 +2,10 @@ package calculator;
 import java.util.Scanner;
 
 public class Calculator {
+
+    public static int add(int a, int b){
+        return a+b;
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Calculator Project Template");
@@ -12,6 +16,8 @@ public class Calculator {
         // Input handling can be added here
         num1 = sc.nextInt();
         num2 = sc.nextInt();
+
+        int res = add(num1, num2);
 
         int result;
         //create new function for each operation
