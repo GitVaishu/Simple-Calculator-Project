@@ -15,13 +15,12 @@ public class Calculator {
 
         int result;
         //create new function for each operation
-        Multiplication multiplication = new Multiplication();
-        result = multiplication.multiply(num1, num2);
+        result = multiply(num1, num2);
+    
         System.out.println(result);
     }
-    public class Multiplication {
-    public int multiply(int a, int b) {
+    private static int multiply(int a, int b) {
         return a * b;
     }
-}
+   
 }
