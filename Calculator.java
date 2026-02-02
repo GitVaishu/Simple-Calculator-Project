@@ -18,9 +18,16 @@ public class Calculator {
         result = multiply(num1, num2);
     
         System.out.println(result);
+
+        result = divison(num1, num2);
+        System.out.println(result);
     }
     private static int multiply(int a, int b) {
         return a * b;
+    }
+
+    private static int divison(int a, int b) {
+        return a / b;
     }
    
 }
