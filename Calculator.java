@@ -21,6 +21,9 @@ public class Calculator {
 
         result = divison(num1, num2);
         System.out.println(result);
+
+        result = Substraction(num1, num2);
+        System.out.println(result);
     }
     private static int multiply(int a, int b) {
         return a * b;
@@ -28,6 +31,10 @@ public class Calculator {
 
     private static int divison(int a, int b) {
         return a / b;
+    }
+    private static int Substraction(int a,int b)
+    {
+        return a-b;
     }
    
 }
